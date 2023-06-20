@@ -1,0 +1,43 @@
+
+
+.centreInfoBox{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    width:60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    /* border: 1px solid #FFF; */
+}
+
+.centreInfoBox .title{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center; 
+}
+
+.centreInfoBox h2{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center; 
+}
+
+.centreInfoBox .description{
+    margin: 25px;
+    font-size: 20px;
+    opacity: 0.8;
+    text-align: center; 
+}
+
+.centreInfoBox button{
+    margin: 100px;
+    width:270px;
+    height: 60px;
+    background: var(--main);
+    border-radius: 25px;
+    cursor: pointer;
+}

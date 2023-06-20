@@ -1,0 +1,58 @@
+.topBar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    /* background-color: rgba (0,0,0,0); */
+    /* background-image: linear-gradient(blue, purple); */
+    display: flex;
+    align-items: center;
+}
+
+.titleBox{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+.titleBox h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FFF;
+}
+
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    color: #FFF;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+ul > li{
+    margin: 0px 40px;
+    cursor: pointer;
+}
+
+
+button{
+    width: 200px;
+    height: 100px;
+    background: #16a42b;
+    border: 0;
+    margin: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+p{
+    font-size: 20px;
+}
+
+button:focus{
+    background: purple;
+}
+

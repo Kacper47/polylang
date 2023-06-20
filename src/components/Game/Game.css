@@ -1,0 +1,66 @@
+.mainBox{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    background: #FFF;
+    width: 700px;
+    height: 500px;
+    border-radius: 15px;
+    
+}
+.mainBox h2{
+    color: #000;
+    text-align: center;
+}
+.backButton{
+    background-color: transparent;
+    color: #939393;
+    width: 20px;
+    height: 20px;
+}
+.textBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textBox p{
+    text-align: justify;
+    color: #000;
+    margin: 50px;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.questionBox{
+    width: 100%;
+    height: 40%;
+}
+.questionBox p{
+    color: #000;
+    margin: 40px;
+}
+
+.allAnswerBox{
+    height: 40%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.answerBox{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.answerBox button{
+    width: 310px;
+    height: 40px;
+    border: 1px solid var(--main);
+    background: #FFF;
+    color: #000;
+}
+.answerBox button:hover{
+    color: var(--main);
+    border: 3px dashed var(--main);
+}
+
